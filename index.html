@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-<title>Contatos de empresas</title>
+<title>Lista de tabelas em HTML.</title>
 <meta charset="utf-8">
 <meta name="author" content="Gael Fernandes Miranda">
 <meta name="reply-to" content="gael.miranda@estudante.iftm.edu.br">
@@ -67,5 +67,98 @@ tr:nth-child(even) {
   </tr>
 </table>
 
+ <style>
+        table{
+          
+            border-collapse: collapse; 
+            
+            border: 2px solid rgb(200,200,200);
+           
+            letter-spacing: 2px;
+           
+            font-size: 0.8rem;
+        }
+        td, th {
+            border: 1px solid rgb(190,190,190);
+           
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+            <col span="2">
+            <col style="background-color: #97DB9A;">
+            <col>
+            <col style="background-color: #97DB9A;">
+            <col style="background-color: #dcc48e;border:4px solid #c1437a">
+            <col style="width:42px">
+            <col>
+        </colgroup>
+        <tr>
+            <th>&nbsp;</th>
+            <th>Seg.</th>
+            <th>Ter.</th>
+            <th>Qua.</th>
+            <th>Qui.</th>
+            <th>Sex.</th>
+            <th>Sáb.</th>
+            <th>Dom.</th>
+        </tr>
+        <tr>
+            <th>Primeiro horário</th>
+            <td>English</td>
+            <td></td>
+            <td></td>
+            <td>German</td>
+            <td>Dutch</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>Segundo horário</th>
+            <td>English</td>
+            <td>English</td>
+            <td></td>
+            <td>German</td>
+            <td>Dutch</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>Terceiro horário</th>
+            <td></td>
+            <td>German</td>
+            <td></td>
+            <td>German</td>
+            <td>Dutch</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>Quarto horário</th>
+            <td></td>
+            <td>English</td>
+            <td></td>
+            <td>English</td>
+            <td>Dutch</td>
+            <td></td>
+            <td></td>
+        </tr>
+
+    </table>
+
+
+
+
+
+
+
+
+
+
+
+  
 </body>
 </html>
